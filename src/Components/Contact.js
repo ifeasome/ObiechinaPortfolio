@@ -96,7 +96,7 @@ class Contact extends Component {
 
           <aside className="four columns footer-widgets">
             <div className="widget widget_contact">
-              <h4>Address and Phone</h4>
+              {/* <h4>Address and Phone</h4>
               <p className="address">
                 {name}
                 <br />
@@ -104,10 +104,10 @@ class Contact extends Component {
                 {city}, {state} {zip}
                 <br />
                 <span>{phone}</span>
-              </p>
+              </p> */}
             </div>
 
-            <div className="widget widget_tweets">
+            {/* <div className="widget widget_tweets">
               <h4 className="widget-title">Latest Tweets</h4>
               <ul id="twitter">
                 <li>
@@ -131,7 +131,7 @@ class Contact extends Component {
                   </b>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </aside>
         </div>
       </section>

@@ -182,7 +182,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #78909c;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -202,8 +202,8 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 150px;
+   height: 150px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -231,7 +231,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #cfd8dc;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -412,7 +412,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #eceff1;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -431,6 +431,7 @@ ul#nav li.current a { color: #fe6928; }
    background: #fff;
    overflow: hidden;
    position: relative;
+  
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;

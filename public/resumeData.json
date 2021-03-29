@@ -1,91 +1,64 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Somelina Obiechina",
+    "description":"Full Stack Developer",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "bio":"Full Stack developer with a background in psychology and business management. Recently earned a certificate in full stack development from the University of Minnesota Coding Bootcamp, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. Passionate professional with insatiable intellectual curiosity about developing operational apps. Known as a problem solver who enjoys team collaboration towards meeting project goals, efficiency and functionality. I’m excited to showcase my skills as part of a fast-paced, quality-driven team to build better experiences on the web. ",
+    "contactmessage":"Let's have a tete-a-tete",
+    "email": "ifeasome@gmail.com",
+    "phone": "612-500-8929",
+    "github":"https://github.com/ifeasome",
+    "project":"https://github.com/ifeasome/Reacts-Child",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Birch Street",
+      "city":"Hopkins",
+      "state":"Minnesota",
+      "zip": "55305"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "https://github.com/ifeasome",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://www.facebook.com/profile.php?id=100017918924426",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/home",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/somelina-obiechina-b6251b1b5/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"https://www.instagram.com/semy_som/",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/ifeasome",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-      {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
-    ],
-    "work":[
-      {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
+    "skillmessage":"Here a few things you can find in my toolkit:",
+    
     "skills":[
       {
-        "name":"Python",
+        "name":"JavaScript",
         "level":"60%"
       },
       {
-        "name":"VueJs",
+        "name":"Handlebars",
         "level":"55%"
       },
       {
-        "name":"ReactJs",
+        "name":"React.Js",
         "level":"50%"
       },
       {
@@ -93,92 +66,80 @@
         "level":"90%"
       },
       {
-        "name":"PHP",
+        "name":"Node.js",
         "level":"80%"
       },
       {
-        "name":"Swift",
+        "name":"MongoDB",
         "level":"50%"
       },
       {
-        "name":"JAVA",
+        "name":"Express",
         "level":"80%"
+      },
+      {
+        "name":"MySql",
+        "level":"45%"
+      },
+      {
+        "name":"Jquery",
+        "level":"80%"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"70%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Marvel Character Cards",
+        "category":"A Marvel Hero Card creator with 30 second soundtrack",
         "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://ifeasome.github.io/Marvel-Cards/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title": "Lego Employee Directory",
+        "category":"A weather app that uses localStorage for persistent data",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://ifeasome.github.io/Weather-Dashboard/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Game Quiz",
+        "category":"A timed coding quiz with multiple choice questions",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://ifeasome.github.io/Game-Quiz/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"Handling The Burger",
+        "category":"A burger logger with MySql, Node, Express, Handlebars and ORM",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://pacific-caverns-39002.herokuapp.com/"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"The Guideline Maker",
+        "category":"A Nodejs command-line README generator",
         "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"https://github.com/ifeasome/README_Generator"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Paw's Date",
+        "category":"(MVP only) A MERN stack dog play-dating app",
         "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://tranquil-beach-17376.herokuapp.com/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"The Progressive Budget",
+        "category":"A budget tracker with offline capabilities",
         "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://stormy-headland-99972.herokuapp.com/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Express Your Notetaker",
+        "category":"A notetaker app using an express backend",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://glacial-plains-25081.herokuapp.com/"
       }
     ]
   }
