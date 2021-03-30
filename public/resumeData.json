@@ -132,13 +132,13 @@
       {
         "title":"The Progressive Budget",
         "category":"A budget tracker with offline capabilities",
-        "image":"01.jpg",
+        "image":"07.jpg",
         "url":"https://stormy-headland-99972.herokuapp.com/"
       },
       {
         "title":"Express Your Notetaker",
         "category":"A notetaker app using an express backend",
-        "image":"02.jpg",
+        "image":"08.jpg",
         "url":"https://glacial-plains-25081.herokuapp.com/"
       }
     ]
