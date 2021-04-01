@@ -16,7 +16,7 @@
       "zip": "55305"
     },
     "website": "https://github.com/ifeasome",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"https://docs.google.com/document/d/13I3bWg-2cA3yYH4bElGkm19vNJQjN6OsnN_jJmkkvEo/edit?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -103,7 +103,7 @@
         "title": "Lego Employee Directory",
         "category":"A weather app that uses localStorage for persistent data",
         "image":"02.jpg",
-        "url":"https://ifeasome.github.io/Weather-Dashboard/"
+        "url":"https://ifeasome.github.io/react-emp-directory/"
       },
       {
         "title":"Game Quiz",
@@ -124,7 +124,7 @@
         "url":"https://github.com/ifeasome/README_Generator"
       },
       {
-        "title":"Paw's Date",
+        "title":"Paw's Date (MVP only)",
         "category":"(MVP only) A MERN stack dog play-dating app",
         "image":"06.jpg",
         "url":"https://tranquil-beach-17376.herokuapp.com/"

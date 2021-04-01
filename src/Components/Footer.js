@@ -25,7 +25,11 @@ class Footer extends Component {
               <li>
                 Design by{" "}
                 <a title="Styleshout" href="http://www.styleshout.com/">
-                  Styleshout
+                  Styleshout {" "}
+                </a> 
+                & {" "}
+                <a title="React-Nice-Resume" href="https://github.com/nordicgiant2/react-nice-resume"> 
+                React Nice Resume
                 </a>
               </li>
             </ul>

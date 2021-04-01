@@ -1,14 +1,81 @@
 import React, { Component } from "react";
+import Swal from "sweetalert2";
+import emailjs from "emailjs-com";
 
 class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { feedback: "", name: "", email: "", subject: "" };
+  }
+  // saves the user's name entered to state
+  nameChange = (event) => {
+    this.setState({ name: event.target.value });
+  };
+
+  // saves the user's email entered to state
+  emailChange = (event) => {
+    this.setState({ email: event.target.value });
+  };
+
+  // saves the user's subject entered to state
+  subjectChange = (event) => {
+    this.setState({ subject: event.target.value });
+  };
+
+  // saves the user's message entered to state
+  messageChange = (event) => {
+    this.setState({ feedback: event.target.value });
+  };
+
+  //onSubmit of email form
+  handleSubmit = (event) => {
+    event.preventDefault();
+
+    //This templateId is created in EmailJS.com
+    const templateId = "template_8vc7jxi";
+
+    //This is a custom method from EmailJS that takes the information
+    //from the form and sends the email with the information gathered
+    //and formats the email based on the templateID provided.
+    this.sendFeedback(templateId, {
+      message: this.state.feedback,
+      name: this.state.name,
+      email: this.state.email,
+      subject: this.state.subject,
+    });
+  };
+
+  //Custom EmailJS method
+  sendFeedback = (templateId, variables) => {
+    emailjs
+      .send(
+        "service_8u9598a",
+        templateId,
+        variables,
+        "user_Nb3MhooBaMJXcENp2FB8s"
+      )
+      .then((res) => {
+        // Email successfully sent alert
+        Swal.fire({
+          title: "Email Successfully Sent",
+          icon: "success",
+        });
+      })
+      // Email Failed to send Error alert
+      .catch((err) => {
+        Swal.fire({
+          title: "Email Failed to Send",
+          icon: "error",
+        });
+        console.error("Email Error:", err);
+      });
+  };
   render() {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const street = this.props.data.address.street;
     const city = this.props.data.address.city;
     const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const email = this.props.data.email;
     const message = this.props.data.contactmessage;
@@ -29,7 +96,12 @@ class Contact extends Component {
 
         <div className="row">
           <div className="eight columns">
-            <form action="" method="post" id="contactForm" name="contactForm">
+            <form
+              action=""
+              onSubmit={this.handleSubmit}
+              id="contactForm"
+              name="contactForm"
+            >
               <fieldset>
                 <div>
                   <label htmlFor="contactName">
@@ -37,11 +109,12 @@ class Contact extends Component {
                   </label>
                   <input
                     type="text"
-                    defaultValue=""
+                    value={this.state.name}
                     size="35"
                     id="contactName"
                     name="contactName"
-                    onChange={this.handleChange}
+                    onChange={this.nameChange}
+                    required
                   />
                 </div>
 
@@ -51,11 +124,12 @@ class Contact extends Component {
                   </label>
                   <input
                     type="text"
-                    defaultValue=""
+                    value={this.state.email}
                     size="35"
                     id="contactEmail"
                     name="contactEmail"
-                    onChange={this.handleChange}
+                    onChange={this.emailChange}
+                    required
                   />
                 </div>
 
@@ -63,11 +137,12 @@ class Contact extends Component {
                   <label htmlFor="contactSubject">Subject</label>
                   <input
                     type="text"
-                    defaultValue=""
+                    value={this.state.subject}
                     size="35"
                     id="contactSubject"
                     name="contactSubject"
-                    onChange={this.handleChange}
+                    onChange={this.subjectChange}
+                    required
                   />
                 </div>
 
@@ -75,63 +150,36 @@ class Contact extends Component {
                   <label htmlFor="contactMessage">
                     Message <span className="required">*</span>
                   </label>
-                  <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  <textarea
+                    cols="50"
+                    rows="15"
+                    value={this.state.message}
+                    id="contactMessage"
+                    name="contactMessage"
+                    onChange={this.messageChange}
+                    required
+                  ></textarea>
                 </div>
 
                 <div>
                   <button className="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
                 </div>
               </fieldset>
             </form>
-
-            <div id="message-warning"> Error boy</div>
-            <div id="message-success">
-              <i className="fa fa-check"></i>Your message was sent, thank you!
-              <br />
-            </div>
           </div>
 
           <aside className="four columns footer-widgets">
             <div className="widget widget_contact">
-              {/* <h4>Address and Phone</h4>
+              <h4>Address and Phone</h4>
               <p className="address">
                 {name}
                 <br />
-                {street} <br />
-                {city}, {state} {zip}
+                {email} <br />
+                {city}, {state}
                 <br />
                 <span>{phone}</span>
-              </p> */}
+              </p>
             </div>
-
-            {/* <div className="widget widget_tweets">
-              <h4 className="widget-title">Latest Tweets</h4>
-              <ul id="twitter">
-                <li>
-                  <span>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-                    sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b>
-                    <a href="#">2 Days Ago</a>
-                  </b>
-                </li>
-                <li>
-                  <span>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b>
-                    <a href="#">3 Days Ago</a>
-                  </b>
-                </li>
-              </ul>
-            </div> */}
           </aside>
         </div>
       </section>
