@@ -72,13 +72,14 @@ const projects = [
     github: "https://github.com/ifeasome/tech-news-java-api"
   },
   {
-    name: "Express Your Notetaker",
-    description: `This application can be used to write, save, and delete notes. 
-    It utilises an express backend and saves and retrieves note data from a JSON file.
+    name: "I Am Mage",
+    description: `An online image repository that allows users to sign in 
+    using Single Sign-On (sso) to upload images that tells an ongoing story based on uploaded images by other users. 
+    Think of pictionary....but different.
     `,
     image: project6,
-    url: "https://glacial-plains-25081.herokuapp.com/",
-    github: "https://github.com/ifeasome/Express-NoteTaker"
+    url: "https://i-am-mage-899e0.web.app/login",
+    github: "https://github.com/ifeasome/i-am-mage"
   },
 ];
 
