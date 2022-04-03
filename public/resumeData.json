@@ -8,7 +8,7 @@
     "email": "ifeasome@gmail.com",
     "phone": "612-500-8929",
     "github":"https://github.com/ifeasome",
-    "project":"https://github.com/ifeasome/tech-news-java-api",
+    "project":"https://github.com/ifeasome/python-newsfeed",
     "address":{
       "street":"Birch Street",
       "city":"Hopkins",
@@ -62,7 +62,7 @@
         "level":"50%"
       },
       {
-        "name":"CSS",
+        "name":"Python",
         "level":"90%"
       },
       {
