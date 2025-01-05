@@ -60,7 +60,6 @@ const projects = [
     It follows the MVC design pattern; uses Node and MySQL to query and route data in app,\
     and Handlebars to generate HTML.`,
     image: project4,
-    url: "https://pacific-caverns-39002.herokuapp.com/",
     github: "https://github.com/ifeasome/Burger-Express-Handlebars"
   },
   {
@@ -68,7 +67,6 @@ const projects = [
     description: `A JAVA powered news aggregator site with CRUD capabilities and a Thymeleaf front-end. 
     Users are able to create an account, log in, share links/websites, comment and upvote.`,
     image: project5,
-    url: "https://cc-java-api-13.herokuapp.com/",
     github: "https://github.com/ifeasome/tech-news-java-api"
   },
   {
