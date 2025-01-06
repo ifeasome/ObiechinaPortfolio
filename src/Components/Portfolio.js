@@ -76,7 +76,6 @@ const projects = [
     Think of pictionary....but different.
     `,
     image: project6,
-    url: "https://i-am-mage-899e0.web.app/login",
     github: "https://github.com/ifeasome/i-am-mage"
   },
 ];
