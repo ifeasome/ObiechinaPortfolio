@@ -83,7 +83,7 @@ const projects = [
 const Portfolio = () => {
   const classes = useStyles();
   return (
-    <Box component="div" className={classes.mainContainer}>
+    <Box component="div" className={classes.mainContainer} id="portfolio">
       <Grid container justify="center">
         {/* Projects */}
         {projects.map((project, i) => (
