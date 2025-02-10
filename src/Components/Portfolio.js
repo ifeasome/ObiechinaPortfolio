@@ -109,9 +109,9 @@ const Portfolio = () => {
                 <Button size="medium" color="primary" href={project.github}>
                   Github
                 </Button>
-                <Button size="medium" color="primary" href={project.url}>
+                {/* <Button size="medium" color="primary" href={project.url}>
                   Live Demo 
-                </Button>
+                </Button> */}
               </CardActions>
             </Card>
           </Grid>
