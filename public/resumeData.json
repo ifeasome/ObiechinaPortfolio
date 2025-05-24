@@ -1,74 +1,71 @@
 {
   "main": {
-    "name":"Somelina Obiechina",
-    "description":"Full Stack Developer",
-    "image":"profilepic.png",
-    "bio":"Aspiring Software Engineer with over 2 years of experience as a freelance web developer demonstrating strong skills in use of front-end technologies and analytical problem-solving. Currently pursuing a Master of Computer and Information Technology at the University of Pennsylvania. Actively engaged in side projects, showcasing dedication to expanding technical expertise beyond academic coursework. Eager to leverage a unique blend of practical experience and academic knowledge to transition into a software engineering role and contribute to innovative software projects that are engaging and visually pleasing.",
-    "contactmessage":"Let's have a tete-a-tete",
+    "name": "Somelina Obiechina",
+    "description": "Full Stack Developer",
+    "image": "profilepic.png",
+    "bio": "Multifaceted administrative professional and aspiring software engineer with over 3 years of experience across healthcare, education, and tech settings. Proven track record in managing office operations, supporting executives, and maintaining IT systems, alongside proficiency in full-stack development. Adept at bridging operational needs with technical solutions. Currently pursuing a master’s in computer and information technology from the University of Pennsylvania.",
+    "contactmessage": "Let's have a tete-a-tete",
     "email": "ifeasome@gmail.com",
     "phone": "612-500-8929",
-    "github":"https://github.com/ifeasome",
-    "project":"https://github.com/ifeasome/CropTails",
-
+    "github": "https://github.com/ifeasome",
+    "project": "https://github.com/ifeasome/CropTails",
     "website": "https://github.com/ifeasome",
-    "resumedownload":"https://docs.google.com/document/d/1g1khr8NdKGEJwhwJ9F4BbUJTRyK3jDdu/edit?usp=sharing&ouid=112469278130728270103&rtpof=true&sd=true",
-    "social":[
-      
+    "resumedownload": "https://docs.google.com/document/d/1F8aExANdt0jkSi8yqCZUpq7IPE-vaBtXWDWJcrzcfVE/edit?usp=sharing",
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/somelina-obiechina-b6251b1b5/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/somelina-obiechina-b6251b1b5/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/ifeasome",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/ifeasome",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here a few things you can find in my toolkit:",
-    
-    "skills":[
+  "resume": {
+    "skillmessage": "Here a few things you can find in my toolkit:",
+    "skills": [
       {
-        "name":"JavaScript",
-        "level":"60%"
+        "name": "JavaScript",
+        "level": "60%"
       },
       {
-        "name":"REDIS",
-        "level":"55%"
+        "name": "REDIS",
+        "level": "55%"
       },
       {
-        "name":"React",
-        "level":"50%"
+        "name": "React",
+        "level": "50%"
       },
       {
-        "name":"Python",
-        "level":"90%"
+        "name": "Python",
+        "level": "90%"
       },
       {
-        "name":"AWS",
-        "level":"80%"
+        "name": "AWS",
+        "level": "80%"
       },
       {
-        "name":"Docker",
-        "level":"50%"
+        "name": "Docker",
+        "level": "50%"
       },
       {
-        "name":"Express",
-        "level":"80%"
+        "name": "Express",
+        "level": "80%"
       },
       {
-        "name":"MySql",
-        "level":"45%"
+        "name": "MySql",
+        "level": "45%"
       },
       {
-        "name":"NGINX",
-        "level":"80%"
+        "name": "NGINX",
+        "level": "80%"
       },
       {
-        "name":"Java",
-        "level":"60%"
+        "name": "Java",
+        "level": "60%"
       }
     ]
   }
